@@ -12,3 +12,7 @@ _Proyecto en el que realizamos un maquetado semántico de una página con HTML5.
 ### 🍋 Lemon Pie  <a href="https://lucaszhh.github.io/Frontend_1/LemonPie/" target="_blank">Link de la página</a>
 
 _Proyecto en el que realizamos un maquetado semántico de una página con HTML5. En ella se muestra una receta de Lemon Pie._
+
+### 🦇 Cv Batman <a href="https://lucaszhh.github.io/Frontend_1/cvBatman/" target="_blank">Link de la página</a>
+
+_Proyecto en el que realizamos un maquetado semántico de una página con HTML5 y estilos con la página CSS. En ella se muestra el curriculum vitae de Bruce Wayne._
