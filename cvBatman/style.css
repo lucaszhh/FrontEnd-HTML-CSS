@@ -1,0 +1,53 @@
+#Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 0%;
+  }
+h1 {
+    color: #005677;
+    background-color: #c4c4c4;
+    text-align: center;
+    font-family: "Times New Roman";
+    text-transform: uppercase;
+    word-spacing: 30px;
+    letter-spacing: 20px;
+  }
+.Portada {
+    background-color: #e5e5e5;
+  }  
+h2 {
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    text-align: left;
+    color: #005677;
+    background-color: #c4c4c4;
+    letter-spacing: 10px;
+  }
+  
+#Pie {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+    color: white;
+    background-color: #005677;
+    font-weight: 700;
+  }
+  
+
+span{
+   font-weight: bold;
+  }
+
+ul#lista li span {
+    font-style: italic;
+}
+
+section {
+    margin: 0 auto;
+    width: 70%;
+}
+
+dl#tabulacion dd {
+	margin-left: 79px;
+}
