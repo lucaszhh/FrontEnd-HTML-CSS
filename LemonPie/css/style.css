@@ -1,0 +1,17 @@
+.banner {
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../img/lemon-pie\ 1.jpg");
+    background-attachment: fixed;
+    height: 300px;
+    color: white;
+}
+h1 {
+    font-weight: 700;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
