@@ -1,0 +1,72 @@
+/*Estilos generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    font-family: 'Roboto-Regular';
+}
+
+/*Header*/
+
+h1, h3{
+    color: #f3f3f3;
+    padding: 15px;
+}
+
+
+.pizza{
+    color: #39B24A;
+}
+
+.front{
+    color: #FC200C;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#f3f3f3;
+}
+
+.encabezado{ /*Header*/
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    height: 25vh;
+    
+}
+
+.logo{ /*Foto pizza + h1*/
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.logo img{ /* Foto pizza*/
+    height: 130px;
+    width: 130px;
+}
+
+
+/*Main*/
+
+/*Footer*/
+
+footer{
+    background-color: #222;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}

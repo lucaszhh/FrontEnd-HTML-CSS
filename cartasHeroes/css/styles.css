@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  background-color: #00669f;
+  position: sticky;
+  top: 0px;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 30px;
+}
+
+.info {
+  background-color: #1cd1b0;
+}
+
+h3 {
+  font-size: 15px;
+  color: black;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+
+.card-img-batman {
+    background-color: #;
+    background-image: url(../img/bg_batman.png);
+    background-repeat: no-repeat;
+}
