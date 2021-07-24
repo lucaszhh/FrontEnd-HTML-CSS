@@ -17,6 +17,6 @@ _Proyecto en el que realizamos un maquetado semántico de una página con HTML5.
 
 _Proyecto en el que realizamos un maquetado semántico de una página con HTML5 y estilos con la página CSS. En ella se muestra el curriculum vitae de Bruce Wayne._
 
-### Cv Personal <a href="https://lucaszhh.github.io/Frontend_1/cvPersonal/" target="_blank">Link de la página</a>
+### Cv Personal <a href="https://lucaszhh.github.io/Frontend_1/cvPersonal" target="_blank">Link de la página</a>
 
 _Proyecto en el que realizamos un maquetado semántico de una página con HTML5 y estilos con la página CSS. En ella se muestra el curriculum vitae Personal._
