@@ -6,81 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="Ofertas">
             <p>Grandes ofertas en comederos</p>
             <ul>
                 <li>Español</li>
                 <li>ARG$</li>
             </ul>
         </div>
-        <div>
-            <a href="#"><img src="img/Cat.svg" alt="Gato">
-                <h1>Front<span>Cat&Dog</span></h1>
-                <img src="img/Dog.svg" alt="Gato">
-            </a>
+        <div class="CatDog">
+            <div>
+                <a class="logo" href="#"><img src="img/Cat.svg" alt="Gato">
+                    <h1><span>Front</span>Cat&Dog</h1>
+                    <img src="img/Dog.svg" alt="Gato">
+                </a>
+            </div>
             <nav>
                 <ul>
                     <li>
-                        <a href="#categorias">
-                            <img src="img/pawprint_white.svg" alt="Huellita">
-                            Categorias
-                        </a>
+                        <a href="#categorias">Categorias</a>
                     </li>
                     <li>
-                        <a href="#pets">
-                            <img src="img/pawprint_white.svg" alt="Huellita">
-                            Pets
-                        </a>
+                        <a href="#pets">Pets</a>
                     </li>
                     <li>
-                        <a href="#nosotros">
-                            <img src="img/pawprint_white.svg" alt="Huellita">
-                            Nosotros
-                        </a>
+                        <a href="#nosotros">Nosotros</a>
                     </li>
                     <li>
-                        <a href="#contactanos">
-                            <img src="img/pawprint_white.svg" alt="Huellita">
-                            Contactanos
-                        </a>
+                        <a href="#contactanos">Contactanos</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section>
-            <img src="img/bowl-and-pet-daities-on-green-background 1.svg" alt="Bowl con balanceado y huesitos">
-            <p>¡Es un placer tenerte aquí</p>
-            <p>¡Comederos en descuento!</p>
-            <a href="#">COMEDEROS</a>
+        <section class="mainTop">
+            <div>
+                <h3>¡Es un placer tenerte aquí</h3>
+                <p>¡Comederos en descuento!</p>
+                <a href="#">COMEDEROS</a>
+            </div>
         </section>
-        <section>
+        <section class="mainMedio">
             <img src="img/pawprint 1.svg" alt="huella de perro">
             <h2>Productos Destacados</h2>
-            <ul>
-                <li>
-                    <a href="#comederos">
-                        Comederos
-                    </a>
-                </li>
-                <li>
-                    <a href="#accesorios">
-                        Accesorios
-                    </a>
-                </li>
-                <li>
-                    <a href="#comida">
-                        Comida
-                    </a>
-                </li>
-            </ul>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#comederos">
+                            Comederos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#accesorios">
+                            Accesorios
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#comida">
+                            Comida
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
-        <section>
+        <section class="mainCartas">
             <div>
                 <img src="img/churrasquito.svg" alt="churrasquito">
                 <p>Jueguete churrasquito</p>
@@ -97,10 +91,73 @@
                 <p>$650</p>
             </div>
         </section>
+        <section class="formulario">
+            <form action="" method="POST">
+                <fieldset>
+                    <legend>
+                        <h4>Contáctanos</h4>
+                    </legend>
+                    <label for="name">Nombre y Apellido</label>
+                    <input type="text" id="name">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" id="email">
+                    <label for="contacto">Teléfono</label>
+                    <input type="tel" id="contacto">
+                    <div>
+                        <button class="reseteo" type="reset">Resetear</button>
+                        <button class="enviar" type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section class="suscripcion">
+            <div>
+                <h2>Suscríbete para más novedades</h2>
+            </div>
+            <div>
+                <form action="" method="POST">
+                    <label for="email">Ingresá tu correo electronico</label>
+                    <input type="email" id="email">
+                    <button type="submit">Suscribirme</button>
+                </form>
+            </div>
+        </section>
     </main>
     <footer>
-        <hr>
-        <p>Todos los derechos reservados Front End</p>
+        <div class="contactoinfo">
+            <div class="infoicon">
+                <div class="iconinfo">
+                    <img src="./img/Icono_ubicacion.jpg" alt="Icono_ubicacion">
+                    <div>
+                        <h2>Localidad</h2>
+                        <p>Calle - provincia</p>
+                    </div>
+                </div>
+                <div class="iconinfo">
+                    <img src="./img/Icono_tel.jpg" alt="Icono_tel">
+                    <div>
+                        <h2>Teléfono</h2>
+                        <p>Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="iconinfo">
+                    <img src="./img/Icono_correo.jpg" alt="Icono_correo">
+                    <div>
+                        <h2>Correo Electrónico</h2>
+                        <p>Dirección de correo</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <a class="logo" href="#"><img src="img/Cat.svg" alt="Gato">
+                    <h2><span>Front</span>Cat&Dog</h2>
+                    <img src="img/Dog.svg" alt="Gato">
+                </a>
+            </div>
+        </div>
+        <div class="derechos">
+            <p>Todos los derechos reservados Front End</p>
+        </div>
     </footer>
 </body>
 

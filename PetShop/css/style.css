@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+
+
+* {
+    list-style:none;
+    text-decoration:none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+a{
+    color:white;
+}
+span{
+    color: black;
+}
+header{
+    background-color:#F0A83E;
+
+}
+
+.Ofertas{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.Ofertas ul{
+    display: flex;
+}
+.Ofertas ul li{
+    margin-right: 40px;
+}
+
+/* preguntar sobre font awonsome
+ .Ofertas ul li::after{
+    content: "";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f167";
+} */
+
+.CatDog{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    margin: 10px 30px;
+
+}
+
+header div nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div nav ul li{
+    padding: 20px;
+}
+
+.mainTop{
+    background: #95D7B0 url("../img/bowl-and-pet-daities-on-green-background\ 1.svg") no-repeat center;
+    background-size: cover;
+    height: 409px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    padding: 20px; 
+    text-align: center;
+}
+h3{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.mainTop div p{
+    padding: 10px;
+}
+.mainTop div a {
+    color: #fff;
+    background-color: #F0A83E;
+    padding: 5px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.mainMedio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.mainMedio img{
+    width: 70px;
+}
+.mainMedio div ul{
+    display: flex;
+
+}
+.mainMedio div ul li {
+    margin: 10px;    
+}
+
+.mainMedio div ul li a{
+    color:#666666;
+}
+.mainCartas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.mainCartas div{
+    margin: 10px;
+    background-color: #FAF9F5;
+    text-align: center;
+}
+.mainCartas p:last-of-type {
+    color: #F0A83E;
+}
+
+.formulario{
+    margin: 40px 0;
+}
+
+
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+fieldset{
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    width: 40%;
+    border: none;
+    text-align: center;
+    max-width: 400px;
+}
+
+legend{
+    padding: 10px;
+
+}
+input{
+    background-color: #3C2313;
+    padding: 15px;
+    border-radius: 30px;
+    margin: 10px;
+    border: none;
+}
+
+fieldset div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 100px;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+}
+
+.reseteo{
+    background-color: #8A8787;
+}
+
+.enviar{
+    background-color: #F0A83E;
+}
+
+.suscripcion{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+}
+.suscripcion form{
+    background-color: #F0A83E;
+    display: flex;
+    flex-direction: row;
+}
+.suscripcion input{
+    background-color: #fff;
+    padding: 15px;
+    width: 300px;
+}
+.suscripcion button{
+    background-color: #3C2313;
+    padding: 15px;
+}
+
+.contactoinfo{
+    background-color: #3C2313;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px 10px 100px;
+
+}
+.infoicon{
+    width: 20%;
+}
+.iconinfo{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 500px;
+}
+
+.iconinfo img{
+    border-radius: 50%;
+    border: none;
+}
+.iconinfo div{
+    color: white;
+    margin-left: 20px;
+}
+.iconinfo p{
+    color: #8A8787;
+}
+footer span{
+    color: #F0A83E;
+}
+
+.derechos{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
