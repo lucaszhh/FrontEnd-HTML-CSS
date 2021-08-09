@@ -20,3 +20,7 @@ _Proyecto en el que realizamos un maquetado semántico de una página con HTML5 
 ### Cv Personal <a href="https://lucaszhh.github.io/Frontend_1/cvPersonal" target="_blank">Link de la página</a>
 
 _Proyecto en el que realizamos un maquetado semántico de una página con HTML5 y estilos con la página CSS. En ella se muestra el curriculum vitae Personal._
+
+### 🍕 Pizzeria <a href="https://lucaszhh.github.io/Frontend_1/pizzeria" target="_blank">Link de la página</a>
+
+_Proyecto en el que realizamos un maquetado semántico de una página con HTML5 y estilos con la página CSS. En ella se muestra e-commerce de una pizzeria._

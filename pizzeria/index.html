@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizzeria</title>
     <link rel="stylesheet" href="css/styles.css" />
-  </head>
-  <body>
-    <header class="encabezado"> <!--Padre-->
+</head>
+
+<body>
+    <header class="encabezado">
+        <!--Padre-->
         <div class="logo">
             <img src="img/pizza.svg" alt="logo de pizza">
             <h1><span class="pizza">Pizza</span>&<span class="front">Front</span></h1>
         </div>
-        <div class="navbar">
-            <ul class="links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Ranking</a></li>
-                <li><a href="#">Promoción</a></li>
-                <li><a href="#">Contacto</a></li>
-            </ul>
-        </div>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Ranking</a></li>
+            <li><a href="#">Promoción</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
     </header>
 
     <main>
         <div class="container">
             <div class="envio">
-                <h3>Envio gratis <span class="comprando">comprando</span> 2 pizzas</h3>
+                <h3>Envio gratis <span>comprando</span> 2 pizzas</h3>
             </div>
 
             <div class="podio">
-                <div class="ranking">
-                    <h3>Podio de pizzas</h3>
-                    <ol>Pizzas top 5
-                        <li>Muzzarella</li>
-                        <li>Hawaiana</li>
-                        <li>Muzzarella J&Morron</li>
-                        <li>Fugazetta</li>
-                        <li>Calabresa</li>
-                    </ol>
-                </div>
                 <div>
-                    <img src="img/ingredientes.svg" alt="ingredientes de pizzas">
+                    <h3>Podio de pizzas</h3>
                 </div>
+                <div class="top">
+                    <div>
+                        <h4>Pizzas top 5</h4>
+                        <p>1. Muzzarella</p>
+                        <p>2. Hawaiana</p>
+                        <p>3. Muzzarella J&Morron</p>
+                        <p>4. Fugazetta</p>
+                        <p>5. Calabresa</p>
+                    </div>
+                    <div>
+                        <img src="img/ingredientes.svg" alt="ingredientes de pizzas">
+                    </div>
+                </div>
+
+
             </div>
         </div>
-        
+
     </main>
 
     <footer>
@@ -57,10 +63,11 @@
                 <li><a href="#">Contacto</a></li>
             </ul>
         </div>
-        <div>
+        <div class="logofooter">
             <img src="img/pizza.svg" alt="logo de pizza">
-        <h3><span class="pizza">Pizza</span>&<span class="front">Front</span></h3>
-        </div>    
+            <h3><span class="pizza">Pizza</span>&<span class="front">Front</span></h3>
+        </div>
     </footer>
-  </body>
+</body>
+
 </html>

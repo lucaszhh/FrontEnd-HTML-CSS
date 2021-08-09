@@ -44,7 +44,6 @@ a{
     background-color: #222;
     display: flex;
     justify-content: space-between;
-    height: 25vh;
     
 }
 
@@ -55,18 +54,96 @@ a{
 }
 
 .logo img{ /* Foto pizza*/
-    height: 130px;
-    width: 130px;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links a{
+    margin: 20px;
+}
+/*Main*/
+main{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.envio{
+    background-color: yellow;
+    background-image:  url(../img/delivery.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 490px;
+    height: 350px;
+    border-radius: 10px;
+}
+.envio h3{
+    color: red;
+}
+span{
+    color: white;
+}
 
-/*Main*/
+.podio{
+    background-color: white;
+    width: 490px;
+    height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 40px 20px;
+}
+.podio h3{
+    color: red;
+}
 
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.top h4{
+    text-align: center;
+}
+.top div {
+    margin: 20px;
+}
+.top div p{
+    padding: 10px;
+}
 /*Footer*/
 
 footer{
     background-color: #222;
-    height: 30vh;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+
+
+footer div ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+}
+footer li{
+    padding: 10px 20px;
+}
+
+.logofooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
