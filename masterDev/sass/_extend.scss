@@ -1,0 +1,21 @@
+%card{
+    width:30%;
+    height: 200px;
+    background-color: $bg-secondary;
+    padding: 10px;
+}
+
+%numeros{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: -10px -10px 2px $shadow;
+    text-align: center;
+    line-height: 2;
+}
+
+%flex-between{
+    display: flex;
+    justify-content: space-between;
+}

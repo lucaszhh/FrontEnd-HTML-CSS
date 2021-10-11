@@ -1,0 +1,123 @@
+main .card > div {
+  width: 30%;
+  height: 200px;
+  background-color: #f8f8f8;
+  padding: 10px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 20px;
+}
+
+header ul li {
+  padding: 0 10px;
+}
+
+main .baner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .baner .texto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 300px;
+}
+
+main .baner .texto span {
+  display: inline-block;
+  background-color: #03faee;
+  height: 10px;
+}
+
+main .baner .texto p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+main .baner .texto a {
+  background-color: #03faee;
+  padding: 15px;
+  margin-right: 20px;
+  border-radius: 15px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+}
+
+main .baner .texto a:hover {
+  -webkit-box-shadow: 2px 2px 2px #8b8b8b;
+          box-shadow: 2px 2px 2px #8b8b8b;
+  -webkit-transition: scale(1.1);
+  transition: scale(1.1);
+}
+
+main .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  main .card > div {
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
